@@ -1,4 +1,4 @@
-const DEFAULT_PLAYBACK = 2.0;
+const DEFAULT_PLAYBACK = 1.0;
 
 chrome.runtime.onStartup.addListener(function() {
     chrome.storage.local.set({"playback_speed": DEFAULT_PLAYBACK}, () => {});
